@@ -1,0 +1,120 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ .container{
+    width: 75%;
+    height: 100vh;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+ }
+ .content1{
+    background-color: rgb(0, 0, 0,0.5);
+    margin-top: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 10px 70px;
+    align-items: center;
+ }
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.content1 p{
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.content2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: whitesmoke;
+    width: 60%;
+}
+div .text{
+    height: 320px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: inherit;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.form{
+    background-color: white;
+    width: 100%;
+    height: 270px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.form p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item{
+    display: flex;
+    gap: 70px;
+}
+.row1, .row2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.row1>div , .row2>div{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 12px;
+}
+input{
+    border: 2px solid black;
+    padding: 3px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+input:invalid{
+    border-color: lightcoral;
+}
+input:active{
+    border-color: lightblue;
+}
+button{
+    padding: 10px 30px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid darkolivegreen;
+}
+
+.bottom{
+    padding: 30px 30px;
+}
+span{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.bottom p{
+    margin-top: 20px;
+}
